@@ -1,18 +1,14 @@
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     background-color: rgb(104, 104, 104);
 }
 
 header {
+    width: 100%;
     height: 200px;
     background-color:rgb(65, 64, 64);
-    margin: -8px;
-}
-
-header#headerdino {
-    height: 200px;
-    background-color:rgb(65, 64, 64);
-    margin: -8px;
+    
 }
 
 p#pSoon {
@@ -32,13 +28,11 @@ p#p {
 }
 
 #headerimg {
-    margin-left: 23%;
-    margin-top: 45px;
+    transform: translate(43%, 50%);    
 }
 
 #headerimgdino {
-    margin-top: 45px;
-    margin-left: 34.5%;
+    transform: translate(100%, 50%); 
 }
 
 #headerimgvelha {
@@ -67,6 +61,7 @@ div.thumb p{
 }
 
 div.button {
+    margin: auto;
       text-align: center;
       color: rgba(65, 63, 63);
       font-size: 80px;
@@ -76,8 +71,6 @@ div.button {
       box-shadow: 0px 1px 5px 4px rgba(65, 63, 63, 0.5);
       width: 500px;
       height: 100px;
-      margin: 5px;
-      margin-left: 31.5%;
       transition: box-shadow 500ms;
   }
 
@@ -90,13 +83,17 @@ div.button {
   }
 
   div.button:hover {
-      box-shadow: 0px 0px 6px 9px rgba(4, 100, 124, 0.3);
+      box-shadow: 0px 0px 10px 6px rgba(245, 245, 245, 0.3);
   }
 
   footer {
-      margin: 180px -8px -8px -8px;
-      padding-bottom: 3px;
-      height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      margin: 180px 0 0 0;
+      width: 100%;
+      height: 22px;
       background-color:rgb(65, 64, 64);
       text-align: center;
       color: honeydew;
