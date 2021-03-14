@@ -1,4 +1,4 @@
-# websitetest1
+# Cícero's Playground
   Project for a website meant to entertain my kid.
 
   Description: 
